@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Manchetes do G1</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #c4170c; }
+        ul { list-style-type: none; padding-left: 0; }
+        li { padding: 10px 0; border-bottom: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+    <h1>📰 Últimas Manchetes do G1</h1>
+    <ul>
+        {% for manchete in manchetes %}
+        <li>{{ manchete }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
