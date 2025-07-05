@@ -1,0 +1,15 @@
+Resumo do Projeto: Coletor de Manchetes G1
+
+Este projeto é uma aplicação web desenvolvida com Python, Flask e BeautifulSoup que coleta automaticamente as principais manchetes do site G1 e da seção de esportes do GE.globo.com.
+
+A aplicação permite ao usuário visualizar as manchetes divididas por categorias como Política, Economia, Esportes, Mundo ou acessar todas na aba Últimas. As manchetes são classificadas automaticamente com base em palavras-chave presentes nos títulos das notícias. Além disso, o sistema possui características que se preocupam com alguns elementos de experiência do usuário
+
+Resumo dos Dados Coletados (Exemplo):
+
+Política: "Lula diz que Brics podem liderar novo modelo de desenvolvimento e pede 'governança multilateral' sobre IA"
+
+Economia: "Brasil emplaca 1 milhão de motos no 1º semestre; veja as mais vendidas"
+
+Esportes: "Fluminense faz história com resiliência e coragem; análise"
+
+Mundo: "Dalai Lama diz que espera viver além dos 130 anos"
